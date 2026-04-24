@@ -1,8 +1,8 @@
 # Lấy code cũ từ coliee, alqac sang
 # Đã fix thêm lỗi các article bị xóa
-from preprocessing.enums_const import (
+from src.preprocessing.enums_const import (
     ReferenceEdgeType,
-    DataFormat,
+    DataFormat
 )
 import networkx as nx
 import pickle
